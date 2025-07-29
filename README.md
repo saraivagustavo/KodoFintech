@@ -17,7 +17,7 @@
 
 Você pode acessar a versão final do projeto em produção no link abaixo:
 
-- **[KODO FINTECH](https://kodo-fintech.vercel.app/)** ---
+- **[KODO FINTECH](https://kodo-fintech.vercel.app/)** 
 
 ## ✨ Funcionalidades Principais
 
