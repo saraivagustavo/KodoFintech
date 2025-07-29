@@ -8,7 +8,7 @@
 > Projeto de landing page responsiva para a Kodo, uma fintech fictícia. Desenvolvido como parte do meu portfólio de desenvolvimento front-end para demonstrar habilidades em HTML, CSS e JavaScript, com foco em boas práticas e organização de código.
 
 <p align="center">
-  <img src="./Assets/Images/gifApresentacao.gif" width="800px" alt="Demonstração do site Kodo">
+  <img src="./projetoKodo/Assets/Images/gifApresentacao.gif" width="800px" alt="Demonstração do site Kodo">
 </p>
 
 ---
@@ -94,7 +94,7 @@ $ cd projetoKodo
 ## 👨‍💻 Autor
 
 <p>
-    <img style="border-radius: 50%;" src="./Assets/Images/perfil.jpg" width="100px;" alt="Foto de Gustavo Saraiva"/>
+    <img style="border-radius: 50%;" src="./projetoKodo/Assets/Images/perfil.jpg" width="100px;" alt="Foto de Gustavo Saraiva"/>
     <br />
     <sub><b>Gustavo Saraiva Mariano</b></sub>
 </p>
