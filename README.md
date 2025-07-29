@@ -93,14 +93,14 @@ $ cd projetoKodo
 ## 👨‍💻 Autor
 
 <p>
-    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/[saraivagustavo]?v=4" width="100px;" alt="Sua foto"/>
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/saraivagustavo?v=4" width="100px;" alt="Sua foto"/>
     <br />
     <sub><b>[Gustavo Saraiva Mariano]</b></sub>
 </p>
 
 Feito por [Gustavo Saraiva]. Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-[GustavoSaraiva]-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seu-linkedin/)](https://www.linkedin.com/in/gustavo-saraiva-mariano/) [![Gmail Badge](https://img.shields.io/badge/-seu.email@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saraivaifes@gmail.com)](mailto:saraivaifes@gmail.com) ---
+[![Linkedin Badge](https://img.shields.io/badge/-GustavoSaraiva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seu-linkedin/)](https://www.linkedin.com/in/gustavo-saraiva-mariano/) [![Gmail Badge](https://img.shields.io/badge/-saraivaifes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saraivaifes@gmail.com)](mailto:saraivaifes@gmail.com) ---
 
 ## 📄 Licença
 
