@@ -79,6 +79,7 @@ Como este é um projeto front-end estático, não há necessidade de um build co
 
 ```bash
 # 1. Clone o repositório
+# SUBSTITUA PELO LINK DO SEU REPOSITÓRIO
 $ git clone [https://github.com/seu-usuario/projetoKodo.git](https://github.com/seu-usuario/projetoKodo.git)
 
 # 2. Navegue até o diretório do projeto
@@ -93,14 +94,17 @@ $ cd projetoKodo
 ## 👨‍💻 Autor
 
 <p>
-    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/saraivagustavo?v=4" width="100px;" alt="Sua foto"/>
+    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/saraivagustavo?v=4" width="100px;" alt="Foto de Gustavo Saraiva"/>
     <br />
-    <sub><b>[Gustavo Saraiva Mariano]</b></sub>
+    <sub><b>Gustavo Saraiva Mariano</b></sub>
 </p>
 
-Feito por [Gustavo Saraiva]. Entre em contato!
+Feito com ❤️ por Gustavo Saraiva. Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-GustavoSaraiva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seu-linkedin/)](https://www.linkedin.com/in/gustavo-saraiva-mariano/) [![Gmail Badge](https://img.shields.io/badge/-saraivaifes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saraivaifes@gmail.com)](mailto:saraivaifes@gmail.com) ---
+[![Linkedin Badge](https://img.shields.io/badge/-Gustavo%20Saraiva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gustavo-saraiva-mariano/)](https://www.linkedin.com/in/gustavo-saraiva-mariano/)
+[![Gmail Badge](https://img.shields.io/badge/-saraivaifes@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:saraivaifes@gmail.com)](mailto:saraivaifes@gmail.com)
+
+---
 
 ## 📄 Licença
 
