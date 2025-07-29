@@ -94,7 +94,7 @@ $ cd projetoKodo
 ## 👨‍💻 Autor
 
 <p>
-    <img style="border-radius: 50%;" src="./Assets/Images/perfil.png" width="100px;" alt="Foto de Gustavo Saraiva"/>
+    <img style="border-radius: 50%;" src="./Assets/Images/perfil.jpg" width="100px;" alt="Foto de Gustavo Saraiva"/>
     <br />
     <sub><b>Gustavo Saraiva Mariano</b></sub>
 </p>
