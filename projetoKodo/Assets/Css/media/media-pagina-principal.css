@@ -1,0 +1,216 @@
+@media (max-width: 1130px) {
+    .section-principal-inicio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ajuste-section-principal {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .w-img-principal {
+        width: 40%;
+        padding: 5px 7px;
+    }
+
+    .section-principal-botoes {
+        justify-content: center;
+    }
+
+    .section-possui-conta {
+        width: 91%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 990px) {
+    .header-botoes {
+        display: none;
+    }
+
+    .w-logo-ajuste {
+        width: 16%;
+    }
+
+    .w-img-principal {
+        margin-top: 50px;
+        padding-top: 14.02px;
+    }
+
+    .header-conteudo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-principal-texto-principal {
+        font-size: 32px;
+    }
+
+    .section-controle-titulo {
+        margin-bottom: 28px;
+    }
+
+    .section-cards-oferecimentos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
+        justify-content: center;
+        text-align: start;
+    }
+
+    .ajuste-img-section-cards {
+        width: 50px;
+    }
+
+    .img-cofrinho-div {
+        text-align: center;
+    }
+
+    .footer-items {
+        font-size: 14.02px;
+    }
+}
+
+@media (max-width: 767px) {
+    .w-img-principal {
+        width: 50%;
+    }
+
+    .section-principal-texto-principal {
+        font-size: 29px;   
+    }
+
+    .section-possui-conta-botao {
+        width: 60%;
+        margin: auto;
+    }
+
+    .section-principal-paragrafo-principal {
+        font-size: 8px;
+    }
+
+    .section-iniciativa-paragrafo {
+        font-size: 18px;
+    }
+
+    .section-controle-financeiro-paragrafo {
+        font-size: 16px;
+    }
+
+    .w-img-grafico {
+        width: 380px;
+    }
+
+    .estilo-botao-branco {
+        padding: 11px 20.04px;
+    }
+
+    .estilo-botao-verde {
+        padding: 11px 20.04px;
+    }
+
+    .section-tutoriais-paragrafo {
+        font-size: 16px;
+    }
+
+    .section-possui-conta {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    .w-img-cofrinho-dinheiro {
+        width: 50%;
+        margin-bottom: 24px;
+    }
+
+    .section-titulo-ja-possui-conta {
+        text-align: center;
+    }
+
+    .section-possui-conta-paragrafo {
+        text-align: center;
+    }
+
+    .section-divisao-cofrinho {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .w-img-grafico {
+        display: none;
+    }
+
+    .card-faq {
+        padding: 8px;
+    }
+
+    .section-possui-conta-botao {
+        align-items: center;
+        margin-top: 20px;
+        padding: 4px;
+        width: 80%;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 488px) {
+    .section-cards-oferecimentos {
+        display: grid;
+        grid-template-columns: 5fr;
+    }
+
+    .perguntas-frequentes {
+        margin: auto;
+    }
+
+    .section-botao-saiba-mais {
+        padding: var(--tamanho-botao-padrao);
+    }
+
+    .section-principal-texto-principal {
+        font-size: 23px;
+    }
+
+    .section-principal-inicio {
+        display: flex;
+        align-items: center;
+    }
+
+    .ajuste-section-principal {
+        text-align: center;
+    }
+
+    .section-principal-apresentacao-esquerda {
+        margin-top: 20px;
+        margin-left: 28px;
+    }
+    
+    .section-controle-financeiro-agrupamento-tabela {
+        display: grid;
+        grid-template-columns: 5fr;
+        justify-content: center;
+    }
+
+    .estilo-botao-branco {
+        padding: 15px 20.04px;
+    }
+
+    .estilo-botao-verde {
+        padding: 11px 20.04px;
+    }
+}
+
+@media (max-width: 460px) {
+    .reestilizacao-botao-assistir {
+        padding: 10px 17px;
+    }
+
+    .footer-titulos {
+        font-size: 16px !important;
+    }
+}

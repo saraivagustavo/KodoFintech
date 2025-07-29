@@ -1,0 +1,35 @@
+@media (max-width: 1022px) {
+
+    body {
+        background-repeat: repeat;
+    }
+
+    .header-botoes-none {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .w-logo-ajuste {
+        width: 20%;
+    }
+}
+
+@media (max-width: 460px) {
+    .w-logo-ajuste {
+        width: 25%;
+    }
+
+    .input-nome::placeholder,
+    .input-email::placeholder,
+    .input-celular::placeholder,
+    .input-cpf::placeholder,
+    .input-senha::placeholder,
+    .input-cidade::placeholder {
+    color: rgba(1, 46, 1, 0.541);
+    }
+    
+    .formulario-cadastro {
+        margin-top: 2.5rem;
+    }
+}

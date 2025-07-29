@@ -1,0 +1,26 @@
+:root {
+
+    /* Fontes Importadas */
+    --font-sora: "Sora", sans-serif;
+
+    /* Cores */
+    --cor-verde-principal: #042800;
+    --cor-verde-principal-hover: #073f01;
+    --cor-verde-opaca: #0428000a;
+    --cor-verde-claro: #ACE0A7;
+    --cor-cinza-basico: #383838;
+    --cor-cinza-claro: #535353;
+    --cor-branco-basico: #ffffff;
+    --cor-cinza-escuro: #0F100F;
+    --cor-cinza-cinza-claro-claro: #F2F2F2;
+    --cor-footer-escuro: #13181F;
+
+    /* Links */
+    --cor-link-azul: #17193B;
+
+    /* Transição */
+    --tempo-transicao-hover: 0.3s;
+
+    /* Tamanhos */
+    --tamanho-botao-padrao: 13px 22.05px;
+}

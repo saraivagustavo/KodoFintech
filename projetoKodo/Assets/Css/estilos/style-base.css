@@ -1,0 +1,84 @@
+/* Estilos Globais e Reset Básico */
+body,
+button,
+input,
+textarea {
+    font-family: var(--font-sora);
+}
+
+/* Layout */
+.limita-conteudo {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.959);
+    z-index: 1000; /* Garante que o header fique sobre outros elementos */
+}
+
+.rolagem {
+    background-color: rgba(221, 220, 220, 0.13);
+    border-bottom: 1px solid rgba(151, 151, 151, 0.438);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.w-logo-ajuste {
+    width: 8rem;
+}
+
+.estilo-header-items {
+    color: var(--cor-cinza-basico);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.estilo-header-items:hover {
+    color: var(--cor-verde-principal);
+    font-weight: 800;
+    transition: var(--tempo-transicao-hover);
+    border-bottom: 2px solid var(--cor-verde-principal);
+}
+
+
+/* Botões */
+.estilo-botao-verde, .estilo-botao-verde-login {
+    background-color: var(--cor-verde-principal);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-branco-basico);
+    font-size: 17px;
+    border-radius: 14px;
+    border: 1px solid transparent;
+}
+
+.estilo-botao-branco, .estilo-botao-branco-login {
+    background-color: var(--cor-branco-basico);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-verde-principal);
+    font-size: 17px;
+    border: 1px solid var(--cor-verde-principal);
+    border-radius: 14px;
+}
+
+.estilo-botao-verde-login {
+    padding: 13px 37.05px; /* Mantém a especificidade do botão de login */
+}
+
+/* Hovers dos Botões */
+.estilo-botao-verde:hover, .estilo-botao-verde-login:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.estilo-botao-branco:hover, .estilo-botao-branco-login:hover {
+    background-color: var(--cor-cinza-escuro);
+    transition: var(--tempo-transicao-hover);
+    color: var(--cor-branco-basico);
+}

@@ -1,0 +1,208 @@
+/* Destaques de texto */
+.destaque-texto-verde {
+    color: var(--cor-verde-principal);
+}
+
+.destaque-texto-cinza-escuro {
+    color: var(--cor-cinza-escuro);
+}
+
+.destaque-texto-verde-peso {
+    color: var(--cor-verde-principal);
+    font-weight: 700;
+}
+
+.destaque-texto-preto-peso {
+    color: black;
+    font-weight: 500;
+}
+
+.destaque-texto-cinza-claro {
+    color: var(--cor-cinza-claro);
+}
+
+.destaque-texto-branco-basico {
+    color: var(--cor-branco-basico);
+}
+
+/* Hovers Específicos da Página Principal */
+.items-footer-estilo:hover {
+    border-bottom: 1px solid var(--cor-branco-basico);
+    transition: var(--tempo-transicao-hover);
+}
+
+.section-card-item:hover {
+    box-shadow:0 0 13px rgba(0, 32, 6, 0.575);
+    transition: 0.2s;
+}
+
+/* Ajustes e Layouts Específicos */
+.margin-top-espacamento-footer {
+    margin-top: 76px;
+}
+
+.fs-controle-financeiro {
+    font-size: 21px;
+}
+
+.mt-section {
+    margin-top: 120px;
+}
+
+.ajuste-card {
+    margin-top: 65px;
+}
+
+.ajuste-img-section-cards {
+    width: 15%;
+    background-color: #ace0a78f;
+    padding: 8px;
+    border-radius: 180px;
+}
+
+.mt-personalizada-40 {
+    margin-top: 40px;
+}
+
+.pt-personalizado-32 {
+    padding-top: 32px;
+}
+
+.w-img-principal {
+    width: 100%;
+}
+
+.w-img-grafico {
+    width: 100%;
+}
+
+.w-img-cofrinho-dinheiro {
+    width: 80%;
+}
+
+.tamanho-section-principal {
+    height: 790px;
+}
+
+.tamanho-section-sobre-iniciativa {
+    height: 230px;
+}
+
+.mt-section-cofrinho {
+    margin-top: 200px;
+}
+
+.w-icon-seta {
+    width: 18%;
+}
+
+.mt-section-videos {
+    margin-top: 200px;
+}
+
+.ajuste-section-principal {
+    margin-top: 190px;
+}
+
+.padding-texto-ajuste-top {
+    padding-top: 1rem;
+}
+
+/* Estilos de Componentes Específicos */
+.bg-cor-verde {
+    background-color: var(--cor-verde-principal);
+}
+
+.estilizacao-footer {
+    background-color: var(--cor-footer-escuro);
+    height: 444px;
+}
+
+.border-estilizado-card {
+    background-color: var(--cor-branco-basico);
+    border-radius: 10px;
+    border: 1px solid #00000034;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.items-footer-estilo {
+    color: var(--cor-branco-basico);
+}
+
+.img-estilizado-cofrinho {
+    border-radius: 10px;
+    border: 1px solid #00000034;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.gradiente-section-principal {
+    background: linear-gradient(to bottom,#04280065, #cccccc6e,#ffffff9f, #ffffff);
+}
+
+/* Estilos dos Modais (Overlay) */
+.overlay, .videos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-saiba-mais, .modal-videos {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeAnimacao 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.modal-saiba-mais {
+  max-width: 640px;
+}
+
+.modal-videos {
+  max-width: 680px;
+  /* Removido position, top e left para centralizar com flexbox do .videos */
+}
+
+.fechar-modal, .fechar-assistir {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--cor-verde-principal);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.fechar-modal:hover, .fechar-assistir:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Classes de Animação */
+.animacao-fade-in {
+    animation: fadeAnimacao 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animacao-effect-left {
+    animation: effectLeft 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.invisivel-scroll {
+  opacity: 0;
+}
+
+.visivel-scroll {
+  opacity: 1;
+}

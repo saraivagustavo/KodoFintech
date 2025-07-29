@@ -1,0 +1,95 @@
+/* Estilos próprios da página de Cadastro */
+
+body {
+    background-image: url(/Assets/Images/background-login.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;                     
+    padding-top: 8rem;                     
+    padding-bottom: 4rem;
+}
+
+.formulario-cadastro {
+    background-color: var(--cor-branco-basico);
+    border-radius: 14px;
+    border-top-right-radius: 0px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    margin-top: 5rem;
+    max-width: 700px;                      
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formulario-titulo-cadastro-dados-pessoais,
+.formulario-titulo-cadastro-endereco {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-verde-principal);
+    border-bottom: 1px solid var(--cor-verde-opaca);
+    text-align: center;
+    width: 100%; /* Garante que a legenda ocupe o espaço do fieldset */
+    margin-bottom: 1rem; /* Adiciona espaçamento após a legenda */
+}
+
+.formulario-div-inputs fieldset {
+    border: none; /* Remove a borda padrão do fieldset */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.formulario-nome,
+.formulario-email,
+.formulario-celular,
+.formulario-cpf,
+.formulario-senha,
+.formulario-cidade {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid var(--cor-verde-principal);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+}
+
+.input-nome,
+.input-email,
+.input-celular,
+.input-cpf,
+.input-senha,
+.input-cidade {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.input-nome::placeholder,
+.input-email::placeholder,
+.input-celular::placeholder,
+.input-cpf::placeholder,
+.input-senha::placeholder,
+.input-cidade::placeholder {
+    color: rgba(1, 46, 1, 0.541);
+}
+
+.icone-img-input {
+    width: 20px;
+    height: 20px;
+}

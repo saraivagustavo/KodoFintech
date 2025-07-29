@@ -1,0 +1,98 @@
+@media (max-width: 991px) {
+    .formulario {
+        top: 16%;
+    }
+
+    .header-botoes {
+        display: none;
+    }
+}
+
+@media (max-width: 851px) {
+    .formulario {
+        width: 90%;
+    }
+}
+
+@media (max-width: 816px) {
+    .input-email,
+    .input-senha {
+    width: 600px;
+    height: 67px;
+    }
+}
+
+@media (max-width: 736px) {
+    .input-email,
+    .input-senha {
+    width: 560px;
+    height: 67px;
+    }
+}
+
+@media (max-width: 686px) {
+    .input-email,
+    .input-senha {
+    width: 510px;
+    height: 67px;
+    }
+}
+
+@media (max-width: 644px) {
+    .input-email,
+    .input-senha {
+    width: 450px;
+    height: 59.02px;
+    }
+}
+
+@media (max-width: 562px) {
+    .input-email,
+    .input-senha {
+    width: 400px;
+    height: 59.02px;
+    }
+
+    .w-logo-ajuste {
+        width: 16%;
+    }
+}
+
+@media (max-width: 510px) {
+    .input-email,
+    .input-senha {
+    width: 360px;
+    height: 56.09px;
+    }
+
+    .w-logo-ajuste {
+        width: 20%;
+    }
+
+    .botoes-formulario-login {
+        flex-direction: column;
+        padding-bottom: 16px;   
+    }
+}
+
+@media (max-width: 460px) {
+    .formulario {
+        width: 84%;
+        top: 14%;
+    }
+
+    .input-email,
+    .input-senha {
+    width: 340px;
+    height: 52px;
+    }
+
+    .div-google-login {
+    width: 340px;
+    height: 55.42px;
+    }
+
+    .w-logo-ajuste {
+        width: 22%;
+    }
+}
