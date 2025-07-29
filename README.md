@@ -79,8 +79,7 @@ Como este é um projeto front-end estático, não há necessidade de um build co
 
 ```bash
 # 1. Clone o repositório
-# SUBSTITUA PELO LINK DO SEU REPOSITÓRIO
-$ git clone [https://github.com/seu-usuario/projetoKodo.git](https://github.com/seu-usuario/projetoKodo.git)
+$ git clone [https://github.com/saraivagustavo/KodoFintech.git](https://github.com/saraivagustavo/KodoFintech.git)
 
 # 2. Navegue até o diretório do projeto
 $ cd projetoKodo
