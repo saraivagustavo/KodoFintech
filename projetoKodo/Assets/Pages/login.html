@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Assets/Css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Assets/Css/variables.css">
+    <link rel="stylesheet" href="/Assets/Css/estilos/style-base.css">
+    <link rel="stylesheet" href="/Assets/Css/estilos/style-login.css">
+    <link rel="stylesheet" href="/Assets/Css/media/media-login.css">
+</head>
+<body>
+
+    <header id="main-header" aria-label="Menu Principal"></header>
+
+    <main>
+        <section class="background-login" aria-label="Formulário Login">
+            <div class="formulario d-flex flex-column align-items-center limita-conteudo-login">
+                <h3 class="formulario-titulo">Entrar em sua conta</h2>
+                    <form class="d-flex flex-column formulario-div-inputs gap-4">
+                        <div class="formulario-email">
+                            <img class="icone-img-input" src="/Assets/Images/email.svg"
+                                alt="icone de carta indicando email">
+                            <input placeholder="E-mail" class="input-email" type="email">
+                        </div>
+                        <div class="formulario-senha">
+                            <img class="icone-img-input" src="/Assets/Images/senha.svg"
+                                alt="icone de cadeado indicando senha">
+                            <input placeholder="Senha" class="input-senha" type="password">
+                        </div>
+                        <div class="formulario-check d-flex gap-3 checkbox-personalizado">
+                            <label class="checkbox-personalizado checkbox-label d-flex align-items-center gap-2">
+                                <input class="input-checkbox" type="checkbox" data-checkbox-login>
+                                <span class="titulo-verde">Manter minha conta conectada</span>
+                            </label>
+                        </div>
+                        <div class="div-google-login d-flex align-items-center gap-4">
+                            <img class="p-3" src="/Assets/Images/devicon_google.svg" alt="icone do google">
+                            <a class="color-google-text fs-size text-decoration-none" href="">Entrar com Google</a>
+                        </div>
+                        <div class="d-flex flex-column text-start gap-2">
+                            <a class="color-link" href="">Esqueci minha senha</a>
+                            <a class="color-link" href="">Criar uma conta</a>
+                        </div>
+                        <div class="botoes-formulario-login d-flex gap-4">
+                            <a class="estilo-botao-verde-login text-decoration-none" href="#">Entrar</a>
+                            <a class="estilo-botao-branco-login text-decoration-none" href="/index.html">Cancelar</a>
+                        </div>
+                    </form>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="/Assets/Js/loader.js"></script> <script type="module" src="/Assets/Js/login.js"></script>
+</body>
+</html>
